@@ -26,6 +26,7 @@ font pango:DejaVu Sans Mono 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -145,6 +146,13 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+
+# Decorator colors
+# class         border   backgr.  text     indicator
+
+client.focused  #202020  #202020  #909090  #303030
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
