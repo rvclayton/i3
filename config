@@ -124,7 +124,7 @@ bindsym $mod+Shift+r restart
 
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3?' -b 'Yes, exit i3' 'i3-msg exit'"
 
-set $mode_exit Do you really want to exit?
+set $mode_exit Do you really want to exit? [N, y]
 bindsym $mod+Shift+e mode "$mode_exit"
 mode "$mode_exit" {
   bindsym y exit
